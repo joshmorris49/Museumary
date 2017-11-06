@@ -14,6 +14,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build; cp -r build dist/.",
+<<<<<<< HEAD
+=======
+    "deploy": "cd dist; gcloud app deploy app.yaml",
+>>>>>>> eeb9ef4e58473205cef22581433cbb578cae89ee
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
